@@ -6,7 +6,7 @@ class dbaction
 	function __construct()
 	{
         // $this->con = mysqli_connect("localhost","root","","777game");
-             $this->con = mysqli_connect("localhost", "root", "", "test");
+             $this->con = mysqli_connect("localhost", "root", "", "IcJhzWpsmfivLyzzzMMvgickDnFzmDXU");
 
 	}
 

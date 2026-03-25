@@ -11,7 +11,7 @@ date_default_timezone_set('Asia/Calcutta');
      {
       /*$this->con = mysqli_connect("localhost","root","","devilclub");*/
         
-             $this->con = mysqli_connect("localhost", "root", "", "test");
+             $this->con = mysqli_connect("localhost", "root", "", "IcJhzWpsmfivLyzzzMMvgickDnFzmDXU");
 
         $this->Action = new dbaction();
         @$this->link = $_SESSION['url_link'];

@@ -42,10 +42,7 @@ class CashfreePaymentController extends Controller
           $url = "https://api.cashfree.com/pg/orders";
 
           $headers = array(
-               "Content-Type: application/json",
-               "x-api-version: 2022-01-01",
-               "x-client-id: 9500204d3339278997be8938a8020059",
-               "x-client-secret: cfsk_ma_prod_a86b22af7aee3a6c66ea0b40dbd9d8e8_f8893b18"
+               
           );
 
           $data = json_encode([
@@ -88,10 +85,7 @@ class CashfreePaymentController extends Controller
 		 $url = "https://api.cashfree.com/pg/orders/".$order_id;
 		 
 		 $headers = array(
-               "Content-Type: application/json",
-               "x-api-version: 2022-01-01",
-               "x-client-id: 9500204d3339278997be8938a8020059",
-               "x-client-secret: cfsk_ma_prod_a86b22af7aee3a6c66ea0b40dbd9d8e8_f8893b18"
+               
           );
 		
 		  curl_setopt($curl, CURLOPT_URL, $url);
