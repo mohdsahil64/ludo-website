@@ -1,5 +1,11 @@
 FROM php:8.2-cli
 
+# Purani line
+RUN composer install --no-dev --optimize-autoloader
+
+# Nayi line (lock file ignore karega, fresh install karega)
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
+
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     git unzip curl libzip-dev zip
